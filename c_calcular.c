@@ -17,6 +17,10 @@ float div(int n1, int n2){
     }
 }
 
+int multi(int n1, int n2){
+    return n1 * n2;
+}
+
 int main(){
 
     int n1, n2;
@@ -32,5 +36,8 @@ int main(){
     float divisao = div(n1, n2);
     printf("A divisão é %2.f \n", divisao);
 
+    int multiplicacao = multi(n1, n2);
+    printf("A multiplicação é %d", multiplicacao);
+    
     return 0;
 }
