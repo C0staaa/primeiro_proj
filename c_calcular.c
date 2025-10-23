@@ -9,7 +9,7 @@ int subtrair(int n1, int n2){
 }
 
 float div(int n1, int n2){
-    if (n1 || n2 == 0){
+    if (n1 == 0 || n2 == 0){
         printf("Erro! \n");
         return 0;
     } else {
@@ -38,6 +38,6 @@ int main(){
 
     int multiplicacao = multi(n1, n2);
     printf("A multiplicação é %d", multiplicacao);
-    
+
     return 0;
 }
